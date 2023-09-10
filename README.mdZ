@@ -1,0 +1,24 @@
+ACTUAL PROBLEM ---------> STATISTICAL PROBLEM -----------> STATISTICAL SOLUTION -------------------------> ACTUAL SOLUTION
+                 (EDA)                          (MODEL)                           (PERFORMANCE MATRIX)
+
+EDA = Exploratory Data Analysis 
+    = It can be used to gain instightes in our data and find certain patterns in the given data
+    = It can be used to find and remove inconsistant or missing data which needs to be addressed before further analysis
+
+MODEL = It simplifies complex statistical relationships into understandable and practical terms
+      = It provide a way to make predictions or decisions based on data
+      = It can be tested and validated using real-world data to ensure their accuracy
+
+      Suppose i have 100 values as data . 
+      I will now use 80 % of this data to train my model .
+      After my model has learned from the training data, I give it a new set of data, the remaining 20 percent, which it has never seen before.
+      I will check how accurately my model performs on this 20% .
+      More the accuracy better is the model.
+
+MAE  = Mean Apsolute Error
+     = It is very hard to make a model that is 100% accurate . 
+     = MAE calculates the average differences between the predicted and actual values.
+
+MAPE =  Mean Absolute Percentage Error     
+     =  It calculates the error in terms of percentage.
+      
